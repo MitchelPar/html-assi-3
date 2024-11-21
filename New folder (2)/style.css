@@ -1,0 +1,71 @@
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('wildrobot.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Poster Container */
+.poster-container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+/* Poster Image */
+.poster {
+  width: 70%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Poster Information Section */
+.poster-info {
+  margin-top: 20px;
+  color: #cec219;
+}
+
+/* Tagline Styling */
+.tagline {
+  font-size: 1.8rem;
+  color: #cec219;
+  font-weight: bold;
+}
+
+/* Movie Links Styling */
+.movie-links a {
+  color: #ffffff;
+  background-color: #117231;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.movie-links a:hover {
+  background-color: #14664d;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  font-size: 1rem;
+  color: #0a0a0a;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
